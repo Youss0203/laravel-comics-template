@@ -13,12 +13,7 @@
             <button class="current">CURRENT SERIES</button>
         </div>
         <div class="w-70">
-            @foreach ($comics as $comic)
-            <div class="card">
-                <img src="{{ $comic['thumb'] }}" alt="">
-                <p>{{ $comic['series'] }}</p>
-            </div>
-            @endforeach
+
         </div>
         <div class="btn">
         <button>LOAD MORE</button>
