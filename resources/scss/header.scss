@@ -1,0 +1,43 @@
+.my_container{
+        width:70%;
+        margin:0 auto;
+        padding:.5rem;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            width: 70px;
+        }
+        ul{
+            display:flex;
+            list-style-type: none;
+            align-items: center;
+        }
+
+        li{
+            padding:.5rem;
+            text-transform: uppercase;
+            font-size:.7rem;
+            padding-top: 2rem;
+        }
+
+    }
+    section.linea_blu{
+        height: 20px;
+        background-color: #0082F9;
+        ul{
+            display:flex;
+            list-style-type: none;
+            justify-content: flex-end;
+            padding-right:5rem;
+
+        }
+
+        li{
+            padding:.2rem 5rem .3rem 0;
+            text-transform: uppercase;
+            font-size:.7rem;
+            color:white;
+
+        }
+    }

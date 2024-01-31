@@ -1,0 +1,68 @@
+section.hero {
+    height: 415px;
+    background-image: url('/resources/images/footer-bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+section.social {
+    padding:2.1rem;
+    background-color: #303030;
+
+}
+H3{
+    color:white;
+    margin-left:2rem;
+    font-size:1rem;
+}
+li{
+    color:#7C7C7C;
+    list-style-type: none;
+    font-size:.7rem;
+}
+
+#dc-comics,#dc{
+    margin-right:1.5rem;
+}
+
+.news{
+    margin-bottom:.5rem;
+}
+div.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+div.sign,.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button{
+    border: #027FF0 2px solid;
+    background-color: #303030;
+    color:white;
+    padding:1rem;
+   }
+p{
+    color:#027FF0;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+}
+.social-logo{
+    margin-right: 1rem;
+}
+.navigation{
+    display:flex;
+    padding-top:2rem;
+}
+.image-logo{
+    width: 85%;
+    margin-left:2rem;
+}
